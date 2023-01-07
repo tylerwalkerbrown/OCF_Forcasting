@@ -38,8 +38,8 @@ from sqlalchemy import create_engine
 # create sqlalchemy engine
 engine = create_engine("mysql+pymysql://{user}:{password}@localhost/{database}"
                        .format(user = 'root',
-                              password = 'Coors1998',
-                              database = 'OCF'))
+                              password = '',
+                              database = ''))
 ```
 
 
@@ -47,8 +47,8 @@ engine = create_engine("mysql+pymysql://{user}:{password}@localhost/{database}"
 #Connector information
 mydb = mysql.connector.connect(host = "Tylers-MacBook-Pro.local",
               user = 'root',
-              password = 'Coors1998',
-              database = 'OCF'
+              password = '',
+              database = ''
               )
 ```
 
